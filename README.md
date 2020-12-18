@@ -5,7 +5,7 @@ MPI, MapReduce Program
 --------------------------------
 
 
-### MPI  
+## MPI    
 
 
 ##### 1. Comm_1.c
@@ -39,4 +39,10 @@ MPI, MapReduce Program
 
 --------------------------------
 
-### MapReduce
+## MapReduce  
+
+
+##### WordCountDescendingOrder.java
+>입력 파일에 포함된 word의 개수를 센 후, 빈도가 높은 단어부터 내림차순으로 출력  
+output: (word, frequency) in descending order  
+**MapReduce output sort by key in descending order without using comparable and complex datastructure**
